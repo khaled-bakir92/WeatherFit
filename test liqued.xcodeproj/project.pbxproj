@@ -23,6 +23,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		294118E82F18FEE900A7DFD0 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		29DF91E82F1829F200A44B7D /* test liqued.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test liqued.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29DF91F52F1829F300A44B7D /* test liquedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test liquedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,6 +43,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		294118E12F18FEE900A7DFD0 /* location */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = location;
+			sourceTree = "<group>";
+		};
 		29DF91EA2F1829F200A44B7D /* test liqued */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "test liqued";
@@ -78,6 +96,7 @@
 				29DF91EA2F1829F200A44B7D /* test liqued */,
 				29DF91F82F1829F300A44B7D /* test liquedTests */,
 				29DF92022F1829F300A44B7D /* test liquedUITests */,
+				294118E12F18FEE900A7DFD0 /* location */,
 				29DF91E92F1829F200A44B7D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,6 +121,7 @@
 				29DF91E42F1829F200A44B7D /* Sources */,
 				29DF91E52F1829F200A44B7D /* Frameworks */,
 				29DF91E62F1829F200A44B7D /* Resources */,
+				294118E82F18FEE900A7DFD0 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -397,6 +417,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "test-liqued-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = WeatherFit;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Wir benötigen deinen Standort, um dir das aktuelle Wetter anzuzeigen.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +451,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "test-liqued-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = WeatherFit;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Wir benötigen deinen Standort, um dir das aktuelle Wetter anzuzeigen.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
