@@ -1,4 +1,4 @@
-# 🌤️ WeaterFit App
+# 🌤️ WeatherFit App
 
 Eine moderne, kostenlose Wetter-App für iOS mit SwiftUI, SwiftData und iOS 26 Liquid Glass Design.
 
